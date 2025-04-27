@@ -1,0 +1,65 @@
+# Polyp$ Deployment Log
+
+---
+
+## 🛠️ Project Overview
+**Token Name:** Polyp$  
+**Token Symbol:** POLYP  
+**Token Standard:** ERC20 (with Pausable & Mintable Extensions)  
+**Total Max Supply:** 10,000,000,000 POLYP  
+**Initial Minted Supply:** 2,000,000,000 POLYP  
+**Chain:** Polygon Mainnet  
+**Deployer Wallet:** 0x0DA1AF34Fae16CE03D579936Ff7BD1dB4A0956EA  
+
+---
+
+## 📜 Smart Contract
+**Contract Address:** 0xaFc7eEDd5Af63Ed8eD2874AA058cC3205afF219C  
+**Constructor Argument:** Deployer's Address (for ownership)  
+**Verified on:** (In progress)
+
+**Main Features:**
+- Pausable transfers
+- Controlled tranche unlocks
+- Minting with max supply cap
+- Owner-only functions
+
+---
+
+## 🖼️ Assets & Metadata
+
+| Asset | IPFS Link |
+|:------|:----------|
+| Token Logo (PNG) | [View on IPFS](https://ipfs.io/ipfs/bafkreifl2okwv4b5dlk5yow7qvcj3anipujmfi6zdfckkizqfrqaymnoaa) |
+| Token Metadata (Registration) | [View on IPFS](https://ipfs.io/ipfs/bafkreiewce3mui5ilci36la2v6w4j76lnvc6ckcuqd6opdrq4pl6umdycq) |
+| Tokenlist JSON | [View on IPFS](https://ipfs.io/ipfs/bafkreieoguqlxmyozfdcmhnk524ux63bq7ldpjzhkqa2abbo6thf4jtxta) |
+
+---
+
+## 🚧 Deployment History & Notes
+- Initial setup via Hardhat (JS Project)
+- Hardhat Toolbox installed
+- OpenZeppelin contracts imported
+- dotenv configured
+- Contract compiled and deployed manually
+- Errors faced: 
+  - Bytecode mismatch on verification (possible due to slight flattening/version mismatch)
+  - Minor dependency warnings during install (non-blocking)
+- Project runs successfully; Token visible in MetaMask once imported manually.
+
+---
+
+## 🔮 Purpose
+Polyp$ is designed as part of an experimental economic and cultural project focusing on asset-backed, environmentally linked tokens with limited minting governance, rooted in Caribbean innovation thinking.
+
+---
+
+## 🛠️ Future Steps
+- Finalize contract verification manually or re-deploy optimized.
+- Submit token metadata to broader aggregators if desired (Coingecko, etc.)
+- Create simple dApp Claim portal.
+- Continue ecosystem growth and cultural integration.
+
+---
+
+# ✍️ Maintained by Jaryd Niles-Morris
